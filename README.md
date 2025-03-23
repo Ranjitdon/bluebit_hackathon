@@ -17,6 +17,8 @@
 - Gemini API
 - MongoDB
 
+## Github Url 
+[Github](https://github.com/Ranjitdon/bluebit_hackathon)
 
 ## Video Url
 [Link to Demo Video](https://drive.google.com/drive/folders/1HzMz6MYBO3wbDz5HyyjIYKTpkzygkYK_?usp=drive_link)
