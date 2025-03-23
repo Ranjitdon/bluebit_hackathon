@@ -9,13 +9,7 @@
 - 🔗 **Interactive Continuation:** The platform offers multiple "What happens next?" options, allowing users to decide the next plot twist.  
 - 🎥 **Real-Time Story Progression:** The narrative evolves dynamically based on user choices, creating a unique storytelling experience.  
 
-## Tech Stack
-- Node
-- React
-- Typescript
-- Fast API
-- Gemini API
-- MongoDB
+
 
 # Project Setup Guide
 
@@ -55,6 +49,42 @@ pip install
 ```sh
 python app.py
 ```
+
+## Tech Stack
+- Node
+- React
+- Typescript
+- Fast API
+- Gemini API
+- MongoDB
+
+## Screenshots
+
+1. SignIn
+   ![image](https://github.com/user-attachments/assets/769eaa1d-df79-46b8-98a0-2be9f789847d)
+
+2. SignUp
+   ![image](https://github.com/user-attachments/assets/3934d171-fce8-42f4-b942-641cf3e2c807)
+
+3. Landing Page
+   ![image](https://github.com/user-attachments/assets/b3fdbd6a-d7c4-49ca-8570-647be93e8c2e)
+   ![image](https://github.com/user-attachments/assets/08bcc27f-e6f7-4d56-875f-a5472e8f3bac)
+   ![image](https://github.com/user-attachments/assets/f23e630f-fc4d-4eeb-a7bc-c7264ae885f6)
+
+4. Create Story Page
+   ![image](https://github.com/user-attachments/assets/da2531da-910d-48f8-9206-7c0aab1f4f43)
+   ![image](https://github.com/user-attachments/assets/133564e9-1624-4433-b62b-4b105a613933)
+   ![image](https://github.com/user-attachments/assets/cd0f2fbc-1e01-4e31-955c-40e31b57ba42)
+
+5. Profile Page
+   ![image](https://github.com/user-attachments/assets/7bcafbfb-a58c-4da9-b3ec-39a5f6c582d0)
+   
+6. Preference Language Page
+   ![image](https://github.com/user-attachments/assets/54121e84-ff7e-4622-9552-4263d1f0cf02)
+
+7. Created Story Page
+   ![image](https://github.com/user-attachments/assets/15f47d7a-b97f-4a69-bd3f-fe22dd6a63d3)
+
 
 ## Github Url 
 [Github](https://github.com/Ranjitdon/bluebit_hackathon)
