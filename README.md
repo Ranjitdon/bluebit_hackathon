@@ -40,9 +40,16 @@ pnpm run dev
 ```sh
 cd backend
 ```
+## 4.1 Create a Virtual Environment
+```sh
+python -m venv venv
+venv\Scripts\activate
+```
 
-
-
+## 4.2 Install Dependencies
+```sh
+pip install
+```
 
 ## Github Url 
 [Github](https://github.com/Ranjitdon/bluebit_hackathon)
