@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 250 100% 99%;
+    --foreground: 250 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 250 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 250 10% 10%;
+
+    --primary: 250 90% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 250 80% 85%;
+    --secondary-foreground: 250 10% 10%;
+
+    --muted: 250 10% 92%;
+    --muted-foreground: 250 10% 40%;
+
+    --accent: 40 95% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 250 15% 90%;
+    --input: 250 15% 90%;
+    --ring: 250 90% 65%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+@layer components {
+  .story-container {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .story-card {
+    @apply bg-white rounded-2xl shadow-md border border-border hover:shadow-lg transition-shadow duration-300 overflow-hidden;
+  }
+  
+  .story-button {
+    @apply px-6 py-3 text-base font-medium rounded-full transition-all duration-300 transform active:scale-95;
+  }
+
+  .story-input {
+    @apply w-full px-4 py-3 rounded-xl border border-border bg-white focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200;
+  }
+
+  .story-avatar {
+    @apply w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm;
+  }
+
+  .animated-underline {
+    @apply relative inline-block after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-1 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
+  }
+}
+
+.prose {
+  @apply max-w-none;
+}
+
+.glassmorphism {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-md;
+}
+
+/* Custom scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/60 rounded-full transition-colors duration-200 hover:bg-primary;
+}
