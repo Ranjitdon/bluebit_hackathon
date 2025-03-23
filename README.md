@@ -17,6 +17,22 @@
 - Gemini API
 - MongoDB
 
+# Project Setup Guide
+
+Follow these steps to set up and run the project.
+
+## 1. Clone the Repository  
+```sh
+git clone https://github.com/Ranjitdon/bluebit_hackathon
+cd bluebit_hackathon
+```
+
+
+
+
+
+
+
 ## Github Url 
 [Github](https://github.com/Ranjitdon/bluebit_hackathon)
 
