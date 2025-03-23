@@ -1,4 +1,4 @@
-# HM0069 AlgoCrew
+# AlgoCrew
 # 🌟 **AI Story Generator** – AI-Powered Interactive Storytelling  
 **AI Story Generator** is an innovative AI-powered platform that generates dynamic and interactive stories based on user preferences. Users can select the genre, length, and starting text, and the AI generates the story. The platform also offers a "What happens next?" feature, allowing users to choose the direction of the narrative, making it an immersive and creative experience.  
 
