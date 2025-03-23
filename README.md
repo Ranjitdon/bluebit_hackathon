@@ -19,7 +19,7 @@
 
 
 ## Video Url
-[Link to Demo Video](https://drive.google.com/drive/folders/1oS67p8Eqg8g3Ape4NxHd-JCzcLHLEGn4?usp=drive_link)
+[Link to Demo Video](https://drive.google.com/drive/folders/1HzMz6MYBO3wbDz5HyyjIYKTpkzygkYK_?usp=drive_link)
 
 ## Remarks
 - This project was created in a limited time frame during the hackathon, and there are plans for further enhancements and features.
