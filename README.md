@@ -51,6 +51,11 @@ venv\Scripts\activate
 pip install
 ```
 
+## 4.3 Install Dependencies
+```sh
+python app.py
+```
+
 ## Github Url 
 [Github](https://github.com/Ranjitdon/bluebit_hackathon)
 
