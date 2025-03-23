@@ -26,9 +26,20 @@ Follow these steps to set up and run the project.
 git clone https://github.com/Ranjitdon/bluebit_hackathon
 cd bluebit_hackathon
 ```
+## 2. Install Frontend Dependencies
+```sh
+pnpm install
+```
 
+## 3. Run the Frontend
+```sh
+pnpm run dev
+```
 
-
+## 4. Setup the Backend
+```sh
+cd backend
+```
 
 
 
